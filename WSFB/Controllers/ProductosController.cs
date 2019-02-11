@@ -84,7 +84,7 @@ namespace WSFB.Controllers
                 return BadRequest(e.Message);
             }
             Conexion.Close();
-            return Ok("Registrado con exito");
+            return Ok("Producto registrado con exito");
         }
     }
 }
